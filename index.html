@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>elmoraqeb</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css"></link>
+	<script src="Chart/Chart.js"></script>
+		
+</head>
+
+<body>
+	<center>
+		<img class="cov" src="img/coverbk.png"></img>
+			<img class="logo-mor" src="img/mor_logo.png"></img>
+			<h1 class="demo">Self-monitoring tool for Thanaweya a'mma students</h1>
+			<div class="startit">
+				<abbr title="Using facebook too">
+					<button class="newfb">Make a new account</button>
+				</abbr>
+				<button class="fblogin">Login with facebook</button>
+			</div>
+	</center>
+	<div class="story">
+		<center>
+			<h1 class="story-title">The story behind</h1>
+		</center>
+	</div>
+	<div class="story-typo">
+		<h1 class="listen">As a student going to Thanaweya A'mma this year, i found that i will have a lot</h1>
+		<h1 class="listen">of time over the year, without a single way of managing and monitoring it.</h1>
+		<h1 class="listen">I Used the Self-monitoring technique with stuff outside the school focus,</h1>
+		<h1 class="listen">and it's very effecient.</h1>
+		<h1 class="listen">In Egypt, most Thanaweya A'mma students takes courses, therefor quizes, a</h1>
+		<h1 class="listen">lot of it, quizes means data, data means representations, charts!</h1>
+		<h1 class="listen">I made a private tool at first, then i thought it will be helpful</h1>
+		<h1 class="listen">if it was availabe for all other Thanaweya A'mma students.</h1>
+		<br/>
+		<h1 class="listen-s">note: You can for sure use this tool for managing your time, and </h1>
+		<h1 class="listen-s">and tracking levels-over-time of almost anything, from sporting </h1>
+		<h1 class="listen-s">to Studyig. anything contains data can be represnted, your imagination(or your data)</h1>
+		<h1 class="listen-s">is the only the limit.</h1>
+	</div>
+		<div class="canvas-holder">
+			<canvas id="chart-area" width="500" height="500"/>
+		</div>
+	
+<script>
+	
+		var doughnutData = [
+				{
+					value: 70,
+					color:"#F7464A",
+					highlight: "#FF5A5E",
+					label: "Don't Know what is Self-monitoring"
+				},
+				{
+					value: 17,
+					color: "#46BFBD",
+					highlight: "#5AD3D1",
+					label: "Don't monitor their progress"
+				},
+				{
+					value: 8,
+					color: "#FDB45C",
+					highlight: "#FFC870",
+					label: "Uses paper for Self-monitoring"
+				},
+				{
+					value: 5,
+					color: "#4D5360",
+					highlight: "#616774",
+					label: "Uses technology for Self-monitoring"
+				}
+
+			];
+
+			window.onload = function(){
+				var ctx = document.getElementById("chart-area").getContext("2d");
+				window.myDoughnut = new Chart(ctx).Doughnut(doughnutData, {responsive : true});
+			};
+
+
+</script>	
+</body>
+
+</html>

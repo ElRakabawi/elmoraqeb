@@ -1,0 +1,219 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Open Sans;
+	background: #fff;
+}
+
+.cov {
+	width: 100%;
+	margin-top: -100px;
+	border-bottom: 3px solid #bbb;
+}
+.logo-mor {
+	display: block;
+	margin-top: -600px;
+	width: 290px;
+	opacity: 1;
+}
+.demo {
+	margin-top: 20px;
+	color: #fff;
+	font-family: Ubuntu;
+	font-weight: 300;
+	font-size: 23px;
+}
+.startit {
+	width: auto;
+	height: 100px;
+	margin-top: 60px;
+}
+.newfb, .fblogin{
+	width: auto;
+	height: 45px;
+	text-align: center;
+	border-radius: 3px;
+	padding: 15px;
+	margin-left: 12.5px;
+	margin-right: 12.5px;
+	padding-left: 20px;
+	padding-right: 20px;
+	border: 1px solid #fff;
+	color: #fff;
+	font-weight: 400;
+	font-family: Ubuntu;
+	font-size: 12px;
+	text-decoration: none;
+	box-shadow: none;
+	background-color: transparent;
+	opacity: 0.9;
+	cursor: pointer;
+	-moz-transition: background ease-in-out 0.3s;
+	-webkit-transition: background ease-in-out 0.3s;
+	-o-transition: background ease-in-out 0.3s;
+	transition: background ease-in-out 0.3s;
+}
+.newfb:hover {
+	background: #fff;
+	color: #000;
+}
+.fblogin:hover {
+	background: #3b5998;
+	border-color: #3b5998;
+}
+.topbar {
+	width: 100%;
+	height: 70px;
+	display: block;
+	-moz-transition: background ease-in-out 0.3s;
+	-webkit-transition: background ease-in-out 0.3s;
+	-o-transition: background ease-in-out 0.3s;
+	transition: background ease-in-out 0.3s;
+}
+.logo-icon {
+	margin-top: 12px;
+	width: 45px;
+	height: 45px;
+	opacity: 0.3;
+	position: absolute;
+	left: 48.5%;
+	-moz-transition: left ease-in-out 0.3s;
+	-webkit-transition: left ease-in-out 0.3s;
+	-o-transition: left ease-in-out 0.3s;
+	transition: left ease-in-out 0.3s;
+}
+.logo-type {
+	margin-top: 23px;
+	height: 23px;
+	opacity: 0.4;
+	position: absolute;
+	left: 68px;
+	display: none;
+	-moz-transition: display ease-in-out 0.9s;
+	-webkit-transition: display ease-in-out 0.9s;
+	-o-transition: display ease-in-out 0.9s;
+	transition: display ease-in-out 0.9s;
+}
+.topbar:hover .logo-icon {
+	left: 30px;
+	opacity: 0.4;
+	width: 35px;
+	height: 35px;
+	margin-top: 16px;
+}
+.topbar:hover {
+	background: rgba(0,0,0,.1);
+}
+.topbar:hover .logo-type {
+	display: block;
+}
+.logout-b {
+	position: absolute;
+	margin-top: 19px;
+	right: 20px;
+	width: auto;
+	height: 32px;
+	text-align: center;
+	border-radius: 3px;
+	margin-left: 10px;
+	margin-right: 10px;
+	padding-left: 15px;
+	padding-right: 15px;
+	border: 1px solid indianred;
+	color: indianred;
+	font-weight: 400;
+	font-family: Ubuntu;
+	font-size: 12px;
+	text-decoration: none;
+	box-shadow: none;
+	background-color: transparent;
+	opacity: 0.9;
+	cursor: pointer;
+	display: none;
+	-moz-transition: display ease-in-out 0.3s;
+	-webkit-transition: display ease-in-out 0.3s;
+	-o-transition: display ease-in-out 0.3s;
+	transition: display ease-in-out 0.3s;
+}
+.mine {
+	position: absolute;
+	margin-top: 27px;
+	right: 125px;
+	float: left;
+	color: #ce4c4c;
+	font-weight: 300;
+	font-family: Ubuntu;
+	font-size: 15px;
+	text-decoration: none;
+	box-shadow: none;
+	background-color: transparent;
+	opacity: 0.9;
+	cursor: pointer;
+	display: none;
+	-moz-transition: display ease-in-out 0.3s;
+	-webkit-transition: display ease-in-out 0.3s;
+	-o-transition: display ease-in-out 0.3s;
+	transition: display ease-in-out 0.3s;
+}
+.topbar:hover .logout-b {
+	display: block;
+}
+.topbar:hover .mine {
+	display: block;
+}
+.mine:hover {
+	opacity: .7;
+}
+.logout-b {
+	-moz-transition: background ease-in-out 0.3s;
+	-webkit-transition: backround ease-in-out 0.3s;
+	-o-transition: background ease-in-out 0.3s;
+	transition: background ease-in-out 0.3s;
+}
+.logout-b:hover {
+	background: indianred;
+	color: #fff;
+}
+.story {
+	margin-top: 100px;
+	background-image: url(../img/pattern.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 100px;
+	border-bottom: 1px solid #ddd;
+	opacity: 0.3;
+}
+.story-title{
+	padding-top: 36px;
+	font-size: 24px;
+	opacity: 1;
+	font-weight: 400;
+}
+.canvas-holder {
+	position: absolute;
+	right: 100px;
+	margin-top: 100px;
+	margin-bottom: 141px;
+	width: 25%;
+	opacity: 0.9;
+}
+.story-typo {
+	position: absolute;
+	left: 100px;
+	margin-top: 110px;
+	width: auto;
+	height: 300px;
+}
+.listen {
+	font-size: 18px;
+	line-height: 0.7;
+	opacity: .6;
+	font-weight: 400;
+}
+.listen-s {
+	font-size: 15px;
+	line-height: 0.7;
+	opacity: .5;
+	font-weight: 400;
+}
